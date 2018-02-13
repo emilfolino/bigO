@@ -3,6 +3,9 @@
 """
 Numberplates
 """
+import time
+
+start = time.time()
 
 total = 0
 n = 10
@@ -32,3 +35,7 @@ for i in range(0, n):
 
 
 print(total)
+
+end = time.time()
+
+print(end - start)
